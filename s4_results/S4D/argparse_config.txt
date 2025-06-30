@@ -1,0 +1,11 @@
+lr: 0.001
+weight_decay: 0.01
+file_name: S4D
+epochs: 50
+num_workers: 0
+batch_size: 32
+n_layers: 4
+d_model: 128
+dropout: 0.1
+prenorm: False
+resume: False
