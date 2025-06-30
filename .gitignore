@@ -1,0 +1,36 @@
+# Ignore virtual environment and all installed packages
+env/
+env/*
+
+# Just in case you have hidden env folders
+.venv/
+.venv/*
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore test data and large ML-related folders (if copied)
+**/onnx/
+**/pandas/
+**/scipy/
+**/matplotlib/
+**/pyarrow/
+**/cmake/
+
+# Ignore hidden system or editor files
+.DS_Store
+.ipynb_checkpoints/
+
+# Ignore large data/model files
+*.pt
+*.hdf5
+*.ckpt
+*.csv
+*.json
+*.log
+*.npz
+*.npy
+
+# Ignore Git LFS blobs and metadata
+.git/lfs/
